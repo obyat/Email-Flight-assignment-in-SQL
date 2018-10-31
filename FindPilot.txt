@@ -1,0 +1,59 @@
+Script started on Tue 18 Apr 2017 04:33:18 PM EDT
+]0;ubutnu@ubutnu-Aspire-7551: ~/430/Database/Untitled Folder/email[01;32mubutnu@ubutnu-Aspire-7551[00m:[01;34m~/430/Database/Untitled Folder/email[00m$ java -cp ojdbc6.jar: 
+. FindPilot
+Please enter information to test connection to the database
+Using Oracle (o), MySql (m) or HSQLDB (h)? o
+user: aobyat
+password: xxxxxxx
+use canned Oracle connection string (y/n): y
+host: localhost
+port (often 1521): 1521
+sid (site id): dbs3
+using connection string: jdbc:oracle:thin:@localhost:1521:dbs3
+Connecting to the database...connected.
+origin city: Los-Angeles
+destination city: Honolulu
+
+Flight: from Los-Angeles to Honolulu, distance: 2551
+Pilot chosen: Michael Miller, Salary 99890
+Aircraft chosen: Boeing 757-300, Cruisingrange 4010
+]0;ubutnu@ubutnu-Aspire-7551: ~/430/Database/Untitled Folder/email[01;32mubutnu@ubutnu-Aspire-7551[00m:[01;34m~/430/Database/Untitled Folder/email[00m$ java -cp ojdbc6.jar: 
+. FindPilot
+Please enter information to test connection to the database
+Using Oracle (o), MySql (m) or HSQLDB (h)? o
+user: aobyat
+password: xxxxxxx
+use canned Oracle connection string (y/n): y
+host: localhost
+port (often 1521): 1521
+sid (site id): dbs3
+using connection string: jdbc:oracle:thin:@localhost:1521:dbs3
+Connecting to the database...connected.
+origin city: Los-Angeles
+destination city: Sydney
+
+Flight: from Los-Angeles to Sydney, distance: 7487
+Pilot chosen: Karen Scott, Salary 205187
+Aircraft chosen: Boeing 747-400, Cruisingrange 8430
+]0;ubutnu@ubutnu-Aspire-7551: ~/430/Database/Untitled Folder/email[01;32mubutnu@ubutnu-Aspire-7551[00m:[01;34m~/430/Database/Untitled Folder/email[00m$ java -cp ojdbc6.jar: 
+. FindPilot
+Please enter information to test connection to the database
+Using Oracle (o), MySql (m) or HSQLDB (h)? o
+user: aobyat
+password: xxxxx
+use canned Oracle connection string (y/n): y
+host: localhost
+port (often 1521): 1521
+sid (site id): dbs3
+using connection string: jdbc:oracle:thin:@localhost:1521:dbs3
+Connecting to the database...connected.
+origin city: Madison
+destination city: Chicago
+
+Flight: from Madison to Chicago, distance: 84
+Pilot chosen: Milo Brooks, Salary 20
+Aircraft chosen: Piper Archer III, Cruisingrange 520
+]0;ubutnu@ubutnu-Aspire-7551: ~/430/Database/Untitled Folder/email[01;32mubutnu@ubutnu-Aspire-7551[00m:[01;34m~/430/Database/Untitled Folder/email[00m$ exit
+exit
+
+Script done on Tue 18 Apr 2017 04:35:01 PM EDT

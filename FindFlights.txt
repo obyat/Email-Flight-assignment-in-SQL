@@ -1,0 +1,71 @@
+Script started on Mon 17 Apr 2017 04:00:53 PM EDT
+]0;ubutnu@ubutnu-Aspire-7551: ~/430/Database/Untitled Folder/email[01;32mubutnu@ubutnu-Aspire-7551[00m:[01;34m~/430/Database/Untitled Folder/email[00m$ exitjava -cp ojdbc6.jar:.
+. FindFlighst[K[Kts
+Please enter information to test connection to the database
+Using Oracle (o), MySql (m) or HSQLDB (h)? o
+user: aobyat
+password: xxxxx
+use canned Oracle connection string (y/n): y
+host: localhost
+port (often 1521): 1521
+sid (site id): dbs3
+using connection string: jdbc:oracle:thin:@localhost:1521:dbs3
+Connecting to the database...connected.
+
+Please enter the flight's origin:
+origin: Los-Angeles
+
+Please enter the flight's destination:
+destination: Honolulu
+
+flino: 33, distance: 2551, duration: +000000000 02:00:00.000000
+
+
+flino: 34, distance: 2551, duration: +000000000 02:33:00.000000
+
+]0;ubutnu@ubutnu-Aspire-7551: ~/430/Database/Untitled Folder/email[01;32mubutnu@ubutnu-Aspire-7551[00m:[01;34m~/430/Database/Untitled Folder/email[00m$ java -cp ojdbc6.jar:.
+. FindFlights
+Please enter information to test connection to the database
+Using Oracle (o), MySql (m) or HSQLDB (h)? o
+user: aobyat
+password: xxxxx
+use canned Oracle connection string (y/n): y
+host: localhost
+port (often 1521): 1521
+sid (site id): fb  dbs3
+using connection string: jdbc:oracle:thin:@localhost:1521:dbs3
+Connecting to the database...connected.
+
+Please enter the flight's origin:
+origin: Los-Angeles
+
+Please enter the flight's destination:
+destination: Sydney
+
+flino: 7, distance: 7487, duration: +000000001 07:40:00.000000
+
+]0;ubutnu@ubutnu-Aspire-7551: ~/430/Database/Untitled Folder/email[01;32mubutnu@ubutnu-Aspire-7551[00m:[01;34m~/430/Database/Untitled Folder/email[00m$ java -cp ojdbc6.jar:.
+. FindFlights
+Please enter information to test connection to the database
+Using Oracle (o), MySql (m) or HSQLDB (h)? o
+user: aobyat
+password: xxxxx
+use canned Oracle connection string (y/n): y
+host: localhost
+port (often 1521): 1521
+sid (site id): dbs3
+using connection string: jdbc:oracle:thin:@localhost:1521:dbs3
+Connecting to the database...connected.
+
+Please enter the flight's origin:
+origin: Madison
+
+Please enter the flight's destination:
+destination: Chicaho  go
+
+flino: 4884, distance: 84, duration: +000000000 00:50:00.000000
+
+]0;ubutnu@ubutnu-Aspire-7551: ~/430/Database/Untitled Folder/email[01;32mubutnu@ubutnu-Aspire-7551[00m:[01;34m~/430/Database/Untitled Folder/email[00m$ exit
+exit
+
+Script done on Mon 17 Apr 2017 04:08:28 PM EDT

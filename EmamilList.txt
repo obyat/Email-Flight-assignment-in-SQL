@@ -1,0 +1,61 @@
+Script started on Tue 18 Apr 2017 11:46:52 PM EDT
+
+
+[Kmysql -u aobyat -D aobyatdb < dropuserdb.sql
+aobyat@pe07:~/cs630/hw4$ mysql -u aobyat -D aobyatdb < createuserdb.sql
+aobyat@pe07:~/cs630/hw4$ exit
+
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cjavac *.java
+]0;ubutnu@ubutnu-Aspire-7551: ~/430/Database/Untitled Folder/email[01;32mubutnu@ubutnu-Aspire-7551[00m:[01;34m~/430/Database/Untitled Folder/email[00m$ java -cp ojdbc6.jar: 
+. EmailList
+Please enter information for connection to the database
+Using Oracle (o) or MySql (m)? o
+Oracle username: aobyat
+Oracle password: xxxxx
+use canned Oracle connection string (y/n): y
+host: localhost
+port (often 1521): 1521
+sid (site id): dbs3
+using connection string: jdbc:oracle:thin:@localhost:1521:dbs3
+Connecting to the database...using connection string: jdbc:oracle:thin:@localhost:1521:dbs3
+Connecting to the database...connected.
+To add a member to the email list, enter name and email as follows:
+Enter firstName: Sue
+Enter lastName: Wong
+Enter email: swong@gmail.com
+New user Sue is now registered.
+]0;ubutnu@ubutnu-Aspire-7551: ~/430/Database/Untitled Folder/email[01;32mubutnu@ubutnu-Aspire-7551[00m:[01;34m~/430/Database/Untitled Folder/email[00m$ java -cp ojdbc6.jar:.
+. EmailList[A
+]0;ubutnu@ubutnu-Aspire-7551: ~/430/Database/Untitled Folder/email[01;32mubutnu@ubutnu-Aspire-7551[00m:[01;34m~/430/Database/Untitled Folder/email[00m$ [C[C[C[C[8Pc *.java
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -cp ojdbc6.jar:.
+. EmailList[A
+]0;ubutnu@ubutnu-Aspire-7551: ~/430/Database/Untitled Folder/email[01;32mubutnu@ubutnu-Aspire-7551[00m:[01;34m~/430/Database/Untitled Folder/email[00m$ [C[C[C[C[8Pc *.java
+
+]0;ubutnu@ubutnu-Aspire-7551: ~/430/Database/Untitled Folder/email[01;32mubutnu@ubutnu-Aspire-7551[00m:[01;34m~/430/Database/Untitled Folder/email[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[C[C[C[C[KShowUser.java
+]0;ubutnu@ubutnu-Aspire-7551: ~/430/Database/Untitled Folder/email[01;32mubutnu@ubutnu-Aspire-7551[00m:[01;34m~/430/Database/Untitled Folder/email[00m$ javac -cp ojdbc6.jar:
+:. ShowUser.java[A
+]0;ubutnu@ubutnu-Aspire-7551: ~/430/Database/Untitled Folder/email[01;32mubutnu@ubutnu-Aspire-7551[00m:[01;34m~/430/Database/Untitled Folder/email[00m$ [C[C[C[C -cp ojdbc6.jar:.[5P EmailList[K[K[K[K[K[K[K[K[KShowUser
+Please enter information to test connection to the database
+Using Oracle (o), MySql (m) or HSQLDB (h)? o
+user: aobyat
+password: xxxxx
+use canned Oracle connection string (y/n): y
+host: localhost
+port (often 1521): 1521
+sid (site id): dbs3
+using connection string: jdbc:oracle:thin:@localhost:1521:dbs3
+Connecting to the database...connected.
+
+Please enter the email to be matched:
+email: swong@gmail.com
+
+Firstname: Sue, Lastname: Wong, Email: swong@gmail.com
+
+]0;ubutnu@ubutnu-Aspire-7551: ~/430/Database/Untitled Folder/email[01;32mubutnu@ubutnu-Aspire-7551[00m:[01;34m~/430/Database/Untitled Folder/email[00m$ exit
+exit
+
+Script done on Tue 18 Apr 2017 11:49:21 PM EDT

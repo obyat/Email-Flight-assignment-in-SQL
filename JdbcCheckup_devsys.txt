@@ -1,0 +1,35 @@
+/*please note the Mysql(m) did not work even though I tested that I am connected
+to both ports */
+
+Script started on Mon 17 Apr 2017 11:26:50 PM EDT
+]0;ubutnu@ubutnu-Aspire-7551: ~/430/Database/Untitled Folder/jdbc[01;32mubutnu@ubutnu-Aspire-7551[00m:[01;34m~/430/Database/Untitled Folder/jdbc[00m$ java -classpath ojdbc 
+6.jar:. JdbcCheckup
+Please enter information to test connection to the database
+Using Oracle (o), MySql (m) or HSQLDB (h)? o
+user: aobyat
+password: xxxxxx
+use canned Oracle connection string (y/n): y
+host: localhost
+port (often 1521): 1521
+sid (site id): dbs3
+using connection string: jdbc:oracle:thin:@localhost:1521:dbs3
+Connecting to the database...connected.
+Hello World!        
+Your JDBC installation is correct.
+]0;ubutnu@ubutnu-Aspire-7551: ~/430/Database/Untitled Folder/jdbc[01;32mubutnu@ubutnu-Aspire-7551[00m:[01;34m~/430/Database/Untitled Folder/jdbc[00m$ java -classpath mysql 
+-connector-java-5.1.39-bin.jar:. JdbcCheckup
+Please enter information to test connection to the database
+Using Oracle (o), MySql (m) or HSQLDB (h)? m
+user: aobyat
+password: xxxxxxx
+use canned MySql connection string (y/n): y
+host: localhost
+port (often 3306): 3333
+using connection string: jdbc:mysql://localhost:3333/aobyatdb
+Connecting to the database...Problem with JDBC Connection
+
+SQLException Message:Access denied for user 'aobyat'@'topcat.cs.umb.edu' (using password: YES)
+]0;ubutnu@ubutnu-Aspire-7551: ~/430/Database/Untitled Folder/jdbc[01;32mubutnu@ubutnu-Aspire-7551[00m:[01;34m~/430/Database/Untitled Folder/jdbc[00m$ exit
+exit
+
+Script done on Mon 17 Apr 2017 11:28:24 PM EDT
